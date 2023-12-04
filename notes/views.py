@@ -1,8 +1,8 @@
-from django.shortcuts import render
 from rest_framework.generics import (
     RetrieveUpdateDestroyAPIView,
     ListCreateAPIView,
 )
+
 from notes.models import NotesModel
 from notes.serializers import NotesSerializer
 
